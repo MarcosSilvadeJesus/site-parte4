@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: black;
+            margin: 0%;
+        }
+ 
+        .container {
+            display: grid;
+        }
+        
+
+        .container {
+            display: grid;
+        }
+        
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: blanchedalmond;
+
+        }
+
+        /*Criando menu dos links*/
+        .menu {
+            width: 355px;
+            grid-column-start: 4px;
+            grid-column-end: 12px;
+            justify-content: center;
+            background-color: red;
+            border-radius: 50px 50px;
+
+        }
+
+        /*Tirando o marcador de bolinhas*/
+        ul {
+            list-style-type: none;
+            
+        }
+        
+        /*Deixando o li a direita*/
+        li {
+            float: left;
+            
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 20px 20px;
+            border: solid black 1px;
+            color:red;
+            background-color: blue;
+        }
+
+        a:hover {
+            background-color: red;
+            color: blue;
+        }
+        
+
+
+        th {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: green;
+        }
+
+        td {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: green;
+        }
+        
+        button {
+            background-color: red;
+            color: green;
+            
+        }
+        
+        .modelo {
+            width: 100%;
+            padding-left: 25%;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:greenyellow;
+        }
+
+        .borda {
+            width: 30%;
+            border: solid 1px;
+            background-color:blue;
+            border-radius: 50px 50px;
+        }
+        .principal {
+            padding: 20px;
+            margin: auto;
+        }
+        
+        h1 { /*mudando cor da fonte e centralizando o texto*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: greenyellow;
+        }
+
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: red;
+        }
+        
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: green;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+    <header class="container menu principal">
+        <nav>
+            <!--Criando lista-->
+            <ul>
+                <li><a href="https://marcossilvadejesus.github.io/site-parte1/">Perfil</a></li>
+                <li><a href="https://marcossilvadejesus.github.io/site-parte2/">Perfil profissional</a></li>
+                <li><a href="https://marcossilvadejesus.github.io/site-parte3/">Porfólio</a></li>
+            </ul>
+        </nav>
+        
+
+    </header>
+
+
+
+
+
+    
+    
+<img src="img/Captura de Tela (267).png" alt="Meu logo" width="15%">
+<br>
+    
+<h1>Contato</h1>  <!--Título da página-->                                                                                  
+<br>
+
+    <form action="" method="" class="principal borda">
+        <!--Criando tabela para registrar contatos-->
+        <table>
+         <!--Menu de registro de nome-->
+            <p></p>
+            <!--tr, th e td são tags pode ser usados para criar tabelas-->
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome"id="nome" style="background-color: red;"></td>
+            </tr>
+            
+            <!--Menu de resgistro de email-->
+            <!--input abre um menu para úsuario escrever-->
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email"id="email" style="background-color: red;"></td>
+            </tr>
+            
+            <!--Menu de registro de mensagem-->
+    
+                <tr>
+                    <th><label for="ms">Digite sua mensagem</label></th>
+                    <td><textarea name="ms" rows="5" cols="40" style="background-color: red;"></textarea></td>
+                </tr>
+           
+                <tr>
+                    <td></td>
+                    <!--Button cria um botão-->
+                    <td> <button>Evinar</button></td>
+                </tr>
+            </table>
+    </form>
+
+    
+
+</body>
+</html>
